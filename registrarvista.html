@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Registrarse</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos.css">
+	
+
+</head>  
+<body>
+ <form class="formulario" action="reg.php" method="POST">
+    
+    <h1>Registrate</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" name="nombre_user" placeholder="Nombre Completo" required >
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="email" name ="correo_electronico" placeholder="Correo Electronico" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" name="contraseña" placeholder="Contraseña" required>
+         </div>
+
+          <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" name="contraseña" placeholder="Confirma Contraseña"required>
+         </div>
+       <div class="imput-contenedor"> 
+
+        <select type=option name="biando" placeholder="bando elegido" required>
+            <option value="Tierra Clasica">Tierra clasica </option>
+            <option value="Tierra Plana">Tierra plana </option>
+            <option value= "Tierra Hueca">Tierra Hueca </option>
+        </select>
+        </div>
+         </div>
+         <input type="submit" value="Registrate" class="button">
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar Sesion</a></p>
+     </div>
+       <br><p><a class="link" href="index.html">Regresar a la pagina principal </a></p>
+    </form>
+</body>
+</html>
