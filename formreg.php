@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
     <script type="text/javascript" src="scripts/validar_formulario.js"></script>
     <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
             
@@ -34,9 +35,11 @@
         <div class="contact-form-response none">
           <p>Los datos han sido enviados</p>
         </div>
+        <div class="contact-form-response">
+          <a class="regreso" id="ingreso" href="index.html">Pagina Principal </a>
+        </div>
       </form>
     </section>
-    <a id="ingreso" href="index.html">Pagina Principal </a>
     
         <?php 
         include("registrar.php");
